@@ -39,9 +39,9 @@ def proxy():
     proxy_index = random_proxy()
     proxy = proxies[proxy_index]
 
-    # Read ips list from the file: ~/ips_list.txt
+    # Read ips list from the file: ~/sample_ips.txt
     for n in range(1, 100):
-        with open('ips_list.txt', 'r') as fp:
+        with open('sample_ips.txt', 'r') as fp:
             for ip in fp:
                 # request to scraping site
                 ips_req = Request('https://whatismyipaddress.com/ip/' + ip)
