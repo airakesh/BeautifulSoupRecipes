@@ -1,4 +1,4 @@
-''' Get Geolocation(Country) and hostname by passing a file having bunch of IPs as the argument form commandline. Example- python GeoIP.py path-to-file-containing-ips/ips_list.txt'''                                                                                                                                                                     import re
+''' Get Geolocation(Country) and hostname by passing a file having bunch of IPs as the argument from commandline. Example- python GeoIP.py path-to-file-containing-ips/ips_list.txt'''                                                                                                                                                                     import re
 
 import os
 import sys
