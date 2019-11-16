@@ -1,5 +1,6 @@
 '''
-Python program scrapes data from website as a source and changes identity (IP address) - using proxies that rotate an IP and fake User Agents using Python 3.7
+Python program scrapes data from website as a source and changes identity (IP address) - 
+using proxies that rotate an IP and fake User Agents.
 '''
 from urllib.request import Request, urlopen
 from urllib.error import URLError
